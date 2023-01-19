@@ -26,6 +26,8 @@ class TimeTracker
 			Console.Clear(); // Clear the console before writing time to avoid having an empty screen between seconds
 			Console.WriteLine(" Task Time: " + elapsedTime);
 		}
+		Console.Clear();
 		Console.WriteLine("Your Task Time was: " + elapsedTime);
-	}
+		Console.ReadKey();
+		}
 }
