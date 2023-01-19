@@ -1,0 +1,15 @@
+/home/oskarblazej/Code/task_timer/obj/Debug/net7.0/task_timer.csproj.AssemblyReference.cache
+/home/oskarblazej/Code/task_timer/obj/Debug/net7.0/task_timer.GeneratedMSBuildEditorConfig.editorconfig
+/home/oskarblazej/Code/task_timer/obj/Debug/net7.0/task_timer.AssemblyInfoInputs.cache
+/home/oskarblazej/Code/task_timer/obj/Debug/net7.0/task_timer.AssemblyInfo.cs
+/home/oskarblazej/Code/task_timer/obj/Debug/net7.0/task_timer.csproj.CoreCompileInputs.cache
+/home/oskarblazej/Code/task_timer/bin/Debug/net7.0/task_timer
+/home/oskarblazej/Code/task_timer/bin/Debug/net7.0/task_timer.deps.json
+/home/oskarblazej/Code/task_timer/bin/Debug/net7.0/task_timer.runtimeconfig.json
+/home/oskarblazej/Code/task_timer/bin/Debug/net7.0/task_timer.dll
+/home/oskarblazej/Code/task_timer/bin/Debug/net7.0/task_timer.pdb
+/home/oskarblazej/Code/task_timer/obj/Debug/net7.0/task_timer.dll
+/home/oskarblazej/Code/task_timer/obj/Debug/net7.0/refint/task_timer.dll
+/home/oskarblazej/Code/task_timer/obj/Debug/net7.0/task_timer.pdb
+/home/oskarblazej/Code/task_timer/obj/Debug/net7.0/task_timer.genruntimeconfig.cache
+/home/oskarblazej/Code/task_timer/obj/Debug/net7.0/ref/task_timer.dll
