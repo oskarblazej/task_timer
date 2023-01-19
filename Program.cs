@@ -13,7 +13,7 @@ class TimeTracker
 	}
 	static void SetTimer()
 	{
-		string elapsedTime = "Stoper Failed. Try again.";
+		string elapsedTime = "Timer Failed. Try again.";
 		Console.WriteLine("Launching timer...");
 		Console.WriteLine("Press Any Key to exit.");
 		Stopwatch stopW = new Stopwatch();
