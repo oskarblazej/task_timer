@@ -4,19 +4,28 @@ using System.Threading;
 
 class TimeTracker
 {
-	public static void Main()
+	static void Main()
 	{
+		
 		SetTimer();
-		Console.WriteLine("Terminating the application");
+		Console.WriteLine("Terminating the application...");
+
 	}
 	static void SetTimer()
 	{
+		string elapsedTime = "Stoper Failed. Try again.";
+		Console.WriteLine("Launching timer...");
+		Console.WriteLine("Press Any Key to exit.");
 		Stopwatch stopW = new Stopwatch();
-		stopW.Start();
-		Thread.Sleep(1000);
-		stopW.Stop();
-		TimeSpan tspan = stopW.Elapsed;
-		string elapsedTime = String.Format("{0:00}:{1:00}:{2:00}:{3:00} ", 		tspan.Hours, tspan.Minutes, tspan.Seconds, tspan.Milliseconds / 10);
-		Console.WriteLine(" RunTime " + elapsedTime);
+		while (!Console.KeyAvailable)
+		{
+			stopW.Start();
+			Thread.Sleep(1000);
+			TimeSpan tspan = stopW.Elapsed;
+			elapsedTime = String.Format("{0:00}:{1:00}:{2:00} ",tspan.Hours, tspan.Minutes, tspan.Seconds, tspan.Milliseconds / 10);
+			Console.Clear(); // Clear the console before writing time to avoid having an empty screen between seconds
+			Console.WriteLine(" Task Time: " + elapsedTime);
+		}
+		Console.WriteLine("Your Task Time was: " + elapsedTime);
 	}
 }
